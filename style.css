@@ -1,0 +1,183 @@
+@font-face {
+    font-family: Josefin;
+    src: url(./fonts/JosefinSans-Regular.ttf);
+}
+
+body {
+    font-family: Josefin;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    max-height: 100vh;
+    max-width: 100vw;
+
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo {
+    max-width: 7em;
+    max-height: 2em;
+
+    margin-top: 2em;
+    margin-left: -36em;
+}
+
+.banner_mobile {
+    display: none;
+}
+
+.banner_desktop {
+    max-width: 100vw;
+    max-height: 100vh;
+
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+.title {
+    text-align: left;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: hsl(0, 36%, 70%);
+
+
+    display: flex;
+    flex-flow: column;
+
+    margin-top: 2em;
+    margin-left: -12em;
+}
+
+.title .black {
+    color: hsl(0, 0%, 0%);
+    text-transform: uppercase;
+}
+
+.text {
+    color: hsl(0, 36%, 70%);
+    font-size: 0.9rem;
+    
+    max-height: 1.7em;
+    max-width: 23em;
+
+    display: flex;
+    gap: 5rem;
+    margin-top: 1em;
+    margin-left: -40em;
+}
+
+.email {
+    display: flex;
+    margin: 0 auto;
+
+    height: 2.5em;
+    width: 30em;
+
+    border-radius: 20px;
+    border-color: hsl(0, 36%, 70%);
+
+    margin-top: 6em;
+    margin-left: -43em;
+}
+
+.email .button {
+    background-color: hsl(0, 36%, 70%);
+
+    flex: 1;
+}
+
+@media (max-width: 375px) {
+
+body {
+    font-family: Josefin;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    max-height: 100vh;
+    max-width: 100vw;
+
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo {
+    height: 1em;
+    width: 6em;
+
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.banner_mobile {
+    width: 100%;
+    height: 14.5em;
+
+    margin-top: 1.5em;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: hsl(0, 36%, 70%);
+
+
+    display: flex;
+    flex-flow: column;
+
+    margin-top: 1.3em;
+}
+
+.title .black {
+    color: hsl(0, 0%, 0%);
+    text-transform: uppercase;
+}
+
+.text {
+    color: hsl(0, 36%, 70%);
+    font-size: 0.9rem;
+    
+    height: 1.7em;
+    width: 22em;
+
+    text-align: center;
+
+    display: flex;
+    gap: 3rem;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.email {
+    display: flex;
+    margin: 0 auto;
+
+    height: 2.5em;
+    width: 18em;
+
+    border-radius: 20px;
+    border-color: hsl(0, 36%, 70%);
+
+    margin-top: 4em;
+    margin-bottom: 5em;
+}
+
+.email .button {
+    background-color: hsl(0, 36%, 70%);
+
+    flex: 1;
+}
+
+}
+
+
